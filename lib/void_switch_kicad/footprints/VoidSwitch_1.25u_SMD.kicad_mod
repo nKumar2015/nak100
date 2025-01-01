@@ -1,0 +1,209 @@
+(footprint "VoidSwitch_1.25u_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Void Switch 1.25U Layout Template")
+	(tags "Void Switch Hall Effect keyswitch 1.25U")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(uuid "de613e64-a694-40f1-9848-99e26219228a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "VoidSwitch1.25U"
+		(at 0 8.502858 0)
+		(layer "F.Fab")
+		(uuid "fa94227e-aa68-408a-8758-e9d937c8ce66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da26d2e4-defe-42db-aa0a-e707604449d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2349cf93-3ea0-4ff6-9dbf-a30d6e2baa9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93016158-65ed-4b41-9b59-4ea65f5fb8bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_line
+		(start -6.985 -6.985)
+		(end 6.985 -6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72aa79b7-b60a-4ee7-9f29-0e9c46e2712d")
+	)
+	(fp_line
+		(start -6.985 6.985)
+		(end -6.985 -6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77076e96-3b5f-4979-80d0-f37df3b916cf")
+	)
+	(fp_line
+		(start 6.985 -6.985)
+		(end 6.985 6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fdabe00-e71c-4452-977c-b21b6ccfa1c5")
+	)
+	(fp_line
+		(start 6.985 6.985)
+		(end -6.985 6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92a52862-9c2e-4b81-b3ad-08ae8646aeac")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.243778 0)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7ec51d09-d5a2-495b-91e4-95e9cae46f4c")
+	)
+	(fp_line
+		(start -11.9055 -9.525)
+		(end 11.9055 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c73ecf00-3a80-4435-9a05-37ce5af83f2c")
+	)
+	(fp_line
+		(start -11.9055 9.525)
+		(end -11.9055 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3ba4a69d-0bdf-4204-90b9-0e77fd9f8589")
+	)
+	(fp_line
+		(start 11.9055 -9.525)
+		(end 11.9055 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c1460502-5637-417c-a666-2b076e34c880")
+	)
+	(fp_line
+		(start 11.9055 9.5244)
+		(end -11.9055 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0df62a61-b2e3-41b1-bd92-46a57df596aa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f55bee7b-701d-4ea6-aeab-46dba7cfdf44")
+	)
+	(fp_text user "${VALUE}"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "1fd068fe-93de-4495-9341-45c73f06b96c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.874 0)
+		(layer "F.Fab")
+		(uuid "a030eafc-f332-47c1-b40d-01a597c2360d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ef9b9bd2-e175-4abd-ab92-bf556015a47f")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "41b72865-f1c5-49e2-93ed-0a8ff5c6e6fb")
+	)
+	(group ""
+		(uuid "754a86b6-11cc-4666-ab7d-7a9024faaf08")
+		(members "41b72865-f1c5-49e2-93ed-0a8ff5c6e6fb" "ef9b9bd2-e175-4abd-ab92-bf556015a47f")
+	)
+)
